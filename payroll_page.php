@@ -172,45 +172,47 @@
                 </button>
             </div>
             
-            <div class="section">
-                <h2>BASIC INCOME</h2>
-                
-                    <div class="form-group">
-                        <label for="rate_per_hour">Rate per Hour:</label>
-                        <input type="text" id="rate_per_hour" name="rate_per_hour" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="hours_per_cutoff">No. of Hours per Cut Off:</label>
-                        <input type="text" id="hours_per_cutoff" name="hours_per_cutoff" required>
-                    </div>
-                
-                
-                    <div class="form-group">
-                        <label for="income_per_cutoff">Income per Cut Off:</label>
-                        <input type="text" id="income_per_cutoff" name="income_per_cutoff" required>
-                    </div>
-                
+
+            <div class ="section">
+                <div class="column">
+                    <h2>BASIC INCOME</h2>
+                                    
+                        <div class="form-group">
+                            <label for="rate_per_hour">Rate per Hour:</label>
+                            <input type="text" id="rate_per_hour" name="rate_per_hour" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hours_per_cutoff">No. of Hours per Cut Off:</label>
+                            <input type="text" id="hours_per_cutoff" name="hours_per_cutoff" required>
+                        </div>                
+                        <div class="form-group">
+                            <label for="income_per_cutoff">Income per Cut Off:</label>
+                            <input type="text" id="income_per_cutoff" name="income_per_cutoff" required>
+                        </div>                
+                </div>
             </div>
+
             <div class="section">
-                <h2 style="font-weight: bold;">HONORARIUM INCOME</h2>
-                
-                    <div class="form-group">
-                        <label for="rate_honorarium">Rate per Hour:</label>
-                        <input type="text" id="rate_honorarium" name="rate_honorarium" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="hours_honorarium">No. of Hours per Cut Off:</label>
-                        <input type="text" id="hours_honorarium" name="hours_honorarium" required>
-                    </div>
-                
-                
-                    <div class="form-group">
-                        <label for="income_honorarium">Income per Cut Off:</label>
-                        <input type="text" id="income_honorarium" name="income_honorarium" required>
-                    </div>
-                
+                <div class="column">
+                    <h2 style="font-weight: bold;">HONORARIUM INCOME</h2>
+                    
+                        <div class="form-group">
+                            <label for="rate_honorarium">Rate per Hour:</label>
+                            <input type="text" id="rate_honorarium" name="rate_honorarium" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hours_honorarium">No. of Hours per Cut Off:</label>
+                            <input type="text" id="hours_honorarium" name="hours_honorarium" required>
+                        </div>
+                    
+                    
+                        <div class="form-group">
+                            <label for="income_honorarium">Income per Cut Off:</label>
+                            <input type="text" id="income_honorarium" name="income_honorarium" required>
+                        </div>               
+                </div>
             </div>
-            <div class="section">
+            <div class="column">
                 <h2 style="font-weight: bold;">OTHER INCOME</h2>
                 
                     <div class="form-group">
@@ -229,7 +231,7 @@
                     </div>
                 
             </div>
-            <div class="section">
+            <div class="column">
                 <h2 style="font-weight: bold;">SUMMARY INCOME</h2>
                 
                     <div class="form-group">
@@ -244,7 +246,7 @@
                     </div>
                 
             </div>
-            <div class="section">
+            <div class="column">
                 <h2 style="font-weight: bold;">REGULAR DEDUCTIONS</h2>
                 
                     <div class="form-group">
@@ -266,7 +268,7 @@
                         <input type="text" id="income_tax_contribution" name="income_tax_contribution" required>
                     </div>
             </div>
-            <div class ="section">
+            <div class ="column">
                 <h2 style="font-weight: bold;">DEDUCTION SUMMARY</h2>
                 <div class="form-group">
                         <label for="Total_Deduction">Total Deduction:</label>
