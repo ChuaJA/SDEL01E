@@ -79,7 +79,7 @@
             <li><a href="#">Employee Report</a></li>
             <li><a href="http://localhost/lpu_web_application/payroll_page.php">Payroll</a></li>
             <li><a href="#">Payroll Report</a></li>
-            <li><a href="http://localhost/lpu_web_application/jac_market.php">POS</a></li>
+            <li><a href="http://localhost/lpu_web_application/beverages.php">POS</a></li>
             <li><a href="#">POS Sales Report</a></li>
             <li><a href="http://localhost/lpu_web_application/user_page.php">User Account</a></li>
             <li><a href="http://localhost/lpu_web_application/login_process.php">Logout</a></li>
