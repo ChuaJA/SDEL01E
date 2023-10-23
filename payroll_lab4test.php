@@ -18,6 +18,7 @@ ini_set("display_errors", "On");
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='js/payroll_save.js'></script>
 
 <style>
     .payrol_form_group1 div span {
@@ -342,7 +343,7 @@ ini_set("display_errors", "On");
 
                     <div>
                         <span style="margin-top:20px;">Employee Number:</span>
-                        <input type="text" class="form-control input_box1" style="margintop:20px;" id="employee_no" name="employee_no" value="<?php echo $employee_no;?>" disabled>
+                        <input type="text" class="formcontrol input_box1" style="margintop:20px;" id="employee_no" name="employee_no" value="<?php echo $employee_no;?>" disabled>
                     </div>
                     <div>
 
@@ -510,6 +511,7 @@ ini_set("display_errors", "On");
                                 <button type="submit" name="calculate_gross_income" class="btn btn-primary" style="padding:5px; margin-bottom:5px;">CALCULATE GROSS INCOME</button>
                                 <button type="submit" name="calculate_net_income" class="btn btn-primary" style="padding:5px; margin-bottom:5px;">CALCULATE NET INCOME</button>
                                 <button type="submit" name="new" class="btn btn-warning" style="padding:5px; margin-bottom:5px; width:100px;">NEW</button>
+                                <button type="submit" id = "save" name="save" class="btn btn-info" style="padding:5px; width:100px;">SAVE</button>
                                 <button type="submit" name="print_preview" class="btn btn-info" style="padding:5px;">PRINT PREVIEW PAYSLIP</button>
                                 <button type="submit" name="print_payslip" class="btn btn-info" style="padding:5px; width:117px;">PRINT PAYSLIP</button>
                                 <button type="submit" name="cancel" class="btn btn-danger" style="padding:5px; width:100px;">CANCEL</button>
