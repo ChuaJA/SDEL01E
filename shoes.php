@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <title>Shoes</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -224,7 +224,7 @@
                                         <button type="button" class="btn btn-danger w-100" onclick="handleNew()">New</button>
                                     </div>
                                     <div class="col">
-                                        <button type="button" class="btn btn-warning w-100">Save</button>
+                                        <button type="button" class="btn btn-warning w-100" id='save'>Save</button>
                                     </div>
                                     <div class="col">
                                         <button type="button" class="btn btn-dark w-100">Update</button>
@@ -301,6 +301,7 @@
     <script src="js/New.js" defer></script>
     <script src="js/Discount.js" defer></script>
     <script src="js/Items.js" defer></script>
+    <script src="js/pos_save.js"></script>
 </body>
 
 </html>
