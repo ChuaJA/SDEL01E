@@ -18,6 +18,33 @@ $(document).ready(function () {
         success: function (result) {
           if (result.ok) {
             alert("Data successfully added!");
+
+            $("#fname").val("");
+            $("#mname").val("");
+            $("#lname").val("");
+            $("#suffix").val("");
+            $("#birth_date").val("");
+            $("#gender").val("");
+            $("#nationality").val("");
+            $("#civil_status").val("");
+            $("#department").val("");
+            $("#designation").val("");
+            $("#qualified_dependent_status").val("");
+            $("#employee_status").val("");
+            $("#pay_date").val("");
+            $("#employee_number").val("");
+            $("#contact_number").val("");
+            $("#email_address").val("");
+            $("#social_media").val("");
+            $("#social_media_account_id").val("");
+            $("#address_line1").val("");
+            $("#address_line2").val("");
+            $("#municipality").val("");
+            $("#state_province").val("");
+            $("#country").val("");
+            $("#zip_code").val("");
+            $("#picpath").val("");
+              
           }
         },
       });
