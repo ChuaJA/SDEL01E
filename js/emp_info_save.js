@@ -19,6 +19,7 @@ $(document).ready(function () {
           if (result.ok) {
             alert("Data successfully added!");
 
+            // Add this line of code to clear the value of the input field
             $("#fname").val("");
             $("#mname").val("");
             $("#lname").val("");
@@ -44,7 +45,8 @@ $(document).ready(function () {
             $("#country").val("");
             $("#zip_code").val("");
             $("#picpath").val("");
-              
+            $("#uploadfile").val("");
+            $("#pic-box").html("");
           }
         },
       });
