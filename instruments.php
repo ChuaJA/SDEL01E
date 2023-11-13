@@ -193,22 +193,22 @@
                                     <h5>Order Discount Options:</h5>
                                 </li>
                                 <ul class="list-group list-group-horizontal gap-5">
-                                    <li class="" style="list-style-type: none;"><input class="form-check-input" type="radio" name="flexRadioDefault" id="senior" onclick="handleDiscounts(0.30)">
+                                    <li class="" style="list-style-type: none;"><input class="form-check-input" type="radio" name="flexRadioDefault" id="senior" value = "senior citizen" onclick="handleDiscounts(0.30)">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             Senior Citizen
                                         </label>
                                     </li>
-                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="withcard" onclick="handleDiscounts(0.20)">
+                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="withcard" value = "with discount card" onclick="handleDiscounts(0.20)">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             With Disc. Card
                                         </label>
                                     </li>
-                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="Empoyee" onclick="handleDiscounts(0.15)">
+                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="Empoyee" value = "employee discount" onclick="handleDiscounts(0.15)">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             Employee Disc.
                                         </label>
                                     </li>
-                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="NoDiscount" onclick="handleDiscounts(0)">
+                                    <li class="" style="list-style-type: none;"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="NoDiscount" value ="no discount" onclick="handleDiscounts(0)">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             No Disc.
                                         </label>
